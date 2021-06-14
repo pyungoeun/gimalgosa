@@ -1,0 +1,332 @@
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .navi {
+            width: 100%;
+            height: 250px;
+            background-color: rgba(0, 0, 0, 0);
+            position: fixed;
+            z-index: 50;
+        }
+
+        .navi:hover {
+            background-color: rgb(255, 255, 255);
+            transition: all 0.4s ease-in-out;
+        }
+
+        .logo {
+            width: 200px;
+            height: 150px;
+            text-align: center;
+            color: seashell;
+            margin: auto;
+        }
+
+        .navi:hover .menu a {
+            color: #181818;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .navi:hover .logo h1 {
+            color: #181818;
+            transition: all 0.3s ease-in-out;
+        }
+
+        h1 {
+            padding-top: 30px;
+            font-weight: 900px;
+            font-size: 50px;
+        }
+
+        h2 {
+            text-align: center;
+
+        }
+
+
+        .navi ul {
+
+            margin-right: 20px;
+            text-align: center;
+
+        }
+
+
+
+        .navi li {
+            display: inline-block;
+            padding: 0 30px;
+            font-weight: 700px;
+            font-size: 30px;
+        }
+
+        .navi a {
+            text-decoration: none;
+            color: seashell;
+        }
+
+        .navi a:hover {
+            color: #181818;
+            transition: all 0.4s ease-in-out;
+            font-weight: 700;
+
+        }
+
+
+        .mv-box {
+            width: 100%;
+            height: 1000px;
+            overflow: hidden;
+
+
+        }
+
+        video {
+            width: 100%;
+            /* -webkit-filter: grayscale(100%); */
+            /* height: 100%; */
+
+        }
+
+        .info {
+            padding-top: 70px;
+            width: 100%;
+            height: 600px;
+            /* background-color: greenyellow; */
+            display: block;
+
+        }
+
+        .info p {
+            text-align: center;
+
+        }
+
+        .wri {
+            width: 50%;
+            height: 100%;
+            /* background-color: grey; */
+            float: left;
+            padding: auto;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+
+        .img-1 {
+            width: 50%;
+            height: 100%;
+            /* background-color: indianred; */
+            float: left;
+            padding: auto;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+
+        .img-1 a {
+            width: 100%;
+            height: 100%;
+
+        }
+
+        .wri a {
+            width: 100%;
+            height: 100%;
+        }
+
+        .img-01 {
+            background-image: url(./노트카메라.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+            width: 100%;
+            height: 100%;
+            -webkit-filter: grayscale(100%);
+            transition: all 0.2s linear;
+
+        }
+
+        .img-01:hover {
+            -webkit-filter: grayscale(0%);
+            transform: scale(1.05);
+            transition: all 0.4s ease-in-out;
+
+        }
+
+        .img-02 {
+            background-image: url(./드론캠.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+            width: 100%;
+            height: 100%;
+            -webkit-filter: grayscale(100%);
+            transition: all 0.2s linear;
+        }
+
+        .img-02:hover {
+            -webkit-filter: grayscale(0%);
+            transform: scale(1.05);
+            transition: all 0.4s ease-in-out;
+        }
+
+        .img-03 {
+            background-image: url(./렌즈근접.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+            width: 100%;
+            height: 100%;
+            -webkit-filter: grayscale(100%);
+            transition: all 0.2s linear;
+        }
+
+        .img-03:hover {
+            -webkit-filter: grayscale(0%);
+            transform: scale(1.05);
+            transition: all 0.4s ease-in-out;
+        }
+
+        .img-04 {
+            background-image: url(./렌즈들.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center center;
+            width: 100%;
+            height: 100%;
+            -webkit-filter: grayscale(100%);
+            transition: all 0.2s linear;
+        }
+
+        .img-04:hover {
+            -webkit-filter: grayscale(0%);
+            transform: scale(1.05);
+            transition: all 0.4s ease-in-out;
+        }
+
+        .footer {
+            /* margin-top: auto; */
+            height: 200px;
+            background-color: #f2f2f2;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .footer_box {
+            width: 1420px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .footer1 img {
+            float: left;
+        }
+
+        .footer1 h5 {
+            font-family: AppleSDGothicNeoEB00;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 34px;
+            color: #5CAFA0;
+            padding-left: 4px;
+        }
+
+        .footer1 p {
+            float: left;
+            font-family: AppleSDGothicNeoL00;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 11px;
+            line-height: 14px;
+            color: #000000;
+        }
+
+
+        .footer_title {
+            font-family: AppleSDGothicNeoSB00;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 24px;
+            color: #000000;
+            float: left;
+            margin: 10px;
+            width: 60px;
+        }
+
+        .footer_content {
+            font-family: AppleSDGothicNeoL00;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 22px;
+            color: #000000;
+            float: left;
+            padding-left: 90px;
+            margin: 10px;
+        }
+
+        .email {
+            float: left;
+        }
+
+        .footer3 a {
+            text-decoration: none;
+            color: #000;
+        }
+
+
+        .content3 li {
+            display: inline-block;
+            border-right: 2px solid #000;
+            font-family: AppleSDGothicNeoL00;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 22px;
+            color: #000000;
+            padding-right: 30px;
+            padding-left: 30px;
+        }
+
+        .footer3 li:last-of-type {
+            border-right: none;
+        }
+
+        .content3 a:hover {
+            color: #00A363;
+            font-weight: bold;
+        }
+
+        .sns {
+            width: auto;
+            height: auto;
+            text-align: right;
+            margin: auto;
+            padding-right: 26px;
+            margin-top: 10px;
+        }
+
+        .sns li {
+            display: inline-block;
+            margin-left: 14px;
+            overflow: hidden;
+        }
+
+        .sns a {
+            color: rgb(163, 163, 163);
+            font-size: 1.2rem;
+        }
